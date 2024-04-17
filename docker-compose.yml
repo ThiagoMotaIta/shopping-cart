@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  web:
+    image: leroymerlinbr/php:backend-challenge-v2
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html:rw
